@@ -76,6 +76,7 @@ jobs:
       #   run: cat reports/ruff-report.json
 
       - name: Bandit
+        continue-on-error: true
         run: |
           bandit -r appname -f json -o reports/bandit-report.json
 

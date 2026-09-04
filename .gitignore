@@ -74,3 +74,6 @@ playwright-report/
 .env
 .env.*
 !.env.local.sample
+
+bandit-report.json
+ruff-report.json

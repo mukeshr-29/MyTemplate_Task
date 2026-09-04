@@ -88,3 +88,5 @@ pytest-cov==4.0.0
 mccabe==0.7.0
 flake8==6.0.0
 pytest-playwright
+ruff
+bandit

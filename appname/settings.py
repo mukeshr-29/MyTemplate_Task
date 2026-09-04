@@ -62,6 +62,7 @@ class DevConfig(Config):
     ENV = 'dev'
     DEBUG = True
     DEBUG_TB_INTERCEPT_REDIRECTS = False
+    DEBUG_TB_ENABLED = False 
 
     SQLALCHEMY_DATABASE_URI = 'sqlite:///../database.db'
 
@@ -79,6 +80,7 @@ class TestConfig(Config):
     ENV = 'test'
     DEBUG = True
     DEBUG_TB_INTERCEPT_REDIRECTS = False
+    DEBUG_TB_ENABLED = False 
 
     SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
 
